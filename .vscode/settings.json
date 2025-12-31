@@ -1,0 +1,7 @@
+{   
+    "editor.formatOnSave": true,
+    "editor.autoIndent": "full",
+    "files.associations": {
+        "*.css": "css"
+    }
+}

@@ -1,0 +1,23 @@
+footer{
+    display: flex ;
+    background-color: #cbd5e1;
+    align-items: center;
+}
+
+.logo-footer{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.redes{
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.redes-sociais{
+    font-size: 12px;
+}
