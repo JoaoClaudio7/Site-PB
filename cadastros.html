@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-BR>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="estilo/header.css">
     <link rel="stylesheet" href="estilo/main.css">
     <link rel="stylesheet" href="estilo/footer.css">
-    <title>my project</title>
+    <link rel="stylesheet" href="estilo/cadastro.css">
 </head>
-
 <body>
-
     <header class="header">
         <div class="container">
             <h1>Cidade de Poço Branco</h1>
@@ -28,26 +26,15 @@
         </div>
     </nav>
 
-    <main class="main">
-        <img class="img" src="imagens/image-pb.png" alt="">
-        <div class="quadro-avisos">
-            <h3 class="aviso">Portal da Tranparência</h3>
-            <h3 class="aviso">Acesso à Informção</h3>
-            <h3 class="aviso">Porcessos Seletivos</h3>
-            <h3 class="aviso">Contratações Diretas</h3>
-            <h3 class="aviso">Portal do Contribuinte</h3>
-            <h3 class="aviso">Portal do Contribuinte</h3>
-        </div>
+    <main class="main-cadastro">
+        <form class="form-cadastro" method="post" action="">
+            <label for="Nome"><strong>Nome completo:</strong></label>
+            <input class="inputs" type="text"> 
+            <label for="Email"><strong>Email:</strong></label>
+            <input class="inputs" type="email">
+            <label for="Nome"><strong>Nome completo:</strong></label>
+            <input class="inputs" type="tel">
+        </form>
     </main>
-
-    <footer>
-        <img class="logo-footer" src="imagens/image-logo.png" alt="">
-        <div class="redes">
-            <h4 >Redes sociais:</h4>
-            <p class="redes-sociais">Insta: @prefpocobranco</p>
-            <p class="redes-sociais">Facebook: prefpocobranco/</p>
-        </div>
-    </footer>
 </body>
-
 </html>
