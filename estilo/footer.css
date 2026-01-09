@@ -3,7 +3,8 @@ footer{
     background-color: #cbd5e1;
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
+         ;
 }
 
 .logo-footer{
